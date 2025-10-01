@@ -1,0 +1,27 @@
+Отримання можливих типів бланків
+
+https://external-service-api-mrwdggas-main.apps.krrt-stage.ncr.gov.ua/api/gateway/data-factory/api-blank-types
+
+## Response
+[
+    {
+        "blankTypeId": "1cb93308-0deb-4de3-8fb8-acd335fd81dc",
+        "blankTypeName": "Складська квитанція",
+        "blankTypeCode": "Ticket"
+    },
+    {
+        "blankTypeId": "4e181d61-985a-4ace-8525-9a557b9aa653",
+        "blankTypeName": "Просте складське свідоцтво",
+        "blankTypeCode": "SimpleCertificate"
+    },
+    {
+        "blankTypeId": "8be4841d-4c61-40c7-941e-65bde7ccb90f",
+        "blankTypeName": "Подвійне складське свідоцтво",
+        "blankTypeCode": "DoubleCertificate"
+    },
+    {
+        "blankTypeId": "a672fd68-d6d1-44d9-9e38-81c046ade16e",
+        "blankTypeName": "Складська квитанція (цифрова форма)",
+        "blankTypeCode": "eTicket"
+    }
+]
